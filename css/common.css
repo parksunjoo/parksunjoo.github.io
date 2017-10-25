@@ -1,0 +1,96 @@
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,button,input,abbr,article,aside,command,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,time,menu,select,legend{margin:0;padding:0}
+li{list-style: none;}
+a{text-decoration: none; color: #2d2d2d;}
+.txt_dl{
+  font-size: 0; color: transparent; text-indent: -9999px;}
+html{
+  height: 100%;
+}
+body{
+  letter-spacing: -1px;
+  box-sizing: border-box;
+  height: 100%;
+}
+.fixwrp{
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+#logo h1{
+  width: 44px; height: 22px;
+  margin: 15px auto;
+  background: url(../img/logo_text_black.png) no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.main_nav_ul{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.main_nav_item{
+  width: 12.5%;
+  text-align: center;
+}
+.main_nav_item a{
+  font-size: 13pt;
+  padding: 10px 0;
+  display: inline-block;
+}
+.main_nav_item.select a{
+  font-weight: bold;
+}
+.fixwrp .fixnav_bar{
+  position: absolute; bottom: 0;
+  width: 12.5%; height: 4px;
+  background-color: #0a9ef8;
+  display: inline-block;
+}
+
+.underbox{
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #000;
+  position: fixed;
+  z-index: 999;
+  background-color: #d3d;
+  bottom:  0;
+}
+.underbar{
+  width: 100%;
+}
+
+.underbar_list li .under_item{
+  width: 18%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+.underbar_list .flex_left .under_item{
+  float: left;
+}
+.underbar_list .flex_right .under_item{
+  float: right;
+}
+.underbar_list li .under_item::before{
+  content: '';
+  width: 20px; height: 20px;
+  display: block; margin: 0 auto;
+  background: url(../img/icons.png) no-repeat;
+  background-size: 122px;
+}
+.underbar_list .flex_left .under_item:first-child::before{
+  background-position: -61px 0;
+}
+.underbar_list .flex_left .under_item:last-child::before{}
+.underbar_list .flex_right .under_item:first-child::before{
+  background-position: -20px 0;
+
+}
+.underbar_list .flex_right .under_item:last-child::before{
+  background-position: -40px 0;
+
+}
