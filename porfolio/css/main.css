@@ -45,19 +45,23 @@ body{
   color: #fff;
 }
 .wrap{
-  width: 1312px;
+  width: 900px;
   margin: 0 auto;
 }
 .webinfm{
   /*width: 5208px;*/
 }
 .webinfm_content{
-  width: 1166px;
+  width: 700px;
   margin: 0 auto;
 }
 .webinfm  > li{
-  width: 1302px; height: 562px;
+  width: 900px; height: 462px;
   background-color: #373737;
   float: left;
+  margin-bottom: 10px;
 }
-.webinfm_content > h2{color: #ad7835; font-size: 60px;}
+.webinfm_content > h2{
+  color: #ad7835; font-size: 60px;
+  margin: 68px 0 66px 0 ;
+}
