@@ -40,3 +40,24 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 }
+body{
+  background-image: url(../img/backgroundimg.jpg);
+  color: #fff;
+}
+.wrap{
+  width: 1312px;
+  margin: 0 auto;
+}
+.webinfm{
+  /*width: 5208px;*/
+}
+.webinfm_content{
+  width: 1166px;
+  margin: 0 auto;
+}
+.webinfm  > li{
+  width: 1302px; height: 562px;
+  background-color: #373737;
+  float: left;
+}
+.webinfm_content > h2{color: #ad7835; font-size: 60px;}
