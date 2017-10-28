@@ -11,7 +11,11 @@ body{
   box-sizing: border-box;
   height: 100%;
 }
+.ctn{
+  padding-top: 90px;
+}
 .fixwrp{
+  z-index: 999;
   width: 100%;
   position: fixed;
   background-color: #fff;
