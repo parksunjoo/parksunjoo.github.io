@@ -41,6 +41,7 @@ table {
 	border-collapse: collapse;
 }
 body{
+  line-height: 25px;
   background-image: url(../img/backgroundimg.jpg);
   color: #fff;
 }
@@ -53,7 +54,7 @@ body{
 }
 .webinfm_content{
   width: 700px;
-  margin: 0 auto;
+  padding-left: 60px;
 }
 .webinfm  > li{
   width: 900px; height: 462px;
