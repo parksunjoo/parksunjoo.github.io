@@ -29,9 +29,10 @@ $underItem.on('click', function(){
   $(this).addClass('select');
 })
 
-// $('a').on('click',function(evt){
-//   evt.preventDefault();
-// })
+//test
+$('.fixwrp h1').on('click',function(){
+  $(this).find('span').toggleClass('shadow');
+})
 
 // document
 navClick();
